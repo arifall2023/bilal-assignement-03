@@ -1,23 +1,23 @@
-const products = [
+const cars = [
   {
-    name: 'New Balance Men\'s Running Shoes',
-    image: '/images/new_balance.jpg',
+    name: 'Tesla Model 3',
+    image: '/images/model_3.jpg',
     description:
-      'Experience top-notch comfort and performance with the New Balance running shoes. They feature a responsive midsole and a durable, breathable mesh upper.',
-    brand: 'New Balance',
-    category: 'Shoes',
-    price: 139.99,
+      'Experience the future of driving with the Tesla Model 3. It features cutting-edge electric technology, impressive acceleration, and a sleek design.',
+    brand: 'Tesla',
+    category: 'Cars',
+    price: 49999.99, // Example price, you can adjust as needed
   },
   {
-    name: 'Adidas Superstar Women\'s Sneakers',
-    image: '/images/superstar.jpg',
+    name: 'Toyota Camry Hybrid',
+    image: '/images/camry_hybrid.jpg',
     description:
-      'Elevate your style and comfort with these Adidas Superstar sneakers. They offer a classic shell toe design, a cushioned sole, and a versatile look for any occasion.',
-    brand: 'Adidas',
-    category: 'Shoes',
-    price: 109.99,
+      'Enjoy fuel efficiency and reliability with the Toyota Camry Hybrid. It combines a gasoline engine with an electric motor for a smooth and eco-friendly driving experience.',
+    brand: 'Toyota',
+    category: 'Cars',
+    price: 29999.99, // Example price, you can adjust as needed
   },
-  // ... (similar changes for other products)
+  // ... (similar changes for other cars)
 ];
 
-export default products;
+export default cars;
